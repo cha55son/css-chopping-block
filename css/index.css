@@ -1,0 +1,38 @@
+/* CodeMirror overrides */
+.CodeMirror-scroll .CodeMirror-gutters {
+	background-color: #333;
+	box-shadow: 2px 2px 2px 0px #111;
+}
+
+body {
+	background-color: #555;
+}
+
+.page-header {
+	background-image: url('../img/block.jpg');
+}
+
+.tab-content {
+	background-color: #EEE;
+	padding: 20px;
+}
+
+#chopping-block {
+	
+} #chopping-block > iframe {
+	width: 100%;
+	border: none;
+	background-color: #FFF;
+}
+
+.controls {
+	margin: 20px auto 20px auto;
+} .controls .test {
+
+}
+
+.input-html {
+
+} .input-html > textarea {
+	
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Chason Choate">
+
+		<title>CSS Chopping Block</title>
+
+		<link rel="stylesheet" href="vendors/Bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendors/CodeMirror/lib/codemirror.css">
+		<link rel="stylesheet" href="vendors/CodeMirror/theme/monokai.css">
+		<link rel="stylesheet" href="css/index.css">
+
+		<script src="vendors/jQuery/jquery-1.10.2.min.js"></script>
+		<script src="vendors/Bootstrap/js/bootstrap.min.js"></script>
+
+		<script src="vendors/CodeMirror/lib/codemirror.js"></script>
+		<script src="vendors/CodeMirror/mode/xml/xml.js"></script>
+	    <script src="vendors/CodeMirror/mode/javascript/javascript.js"></script>
+	    <script src="vendors/CodeMirror/mode/css/css.js"></script>
+	    <script src="vendors/CodeMirror/mode/htmlmixed/htmlmixed.js"></script>
+
+		<script type="text/javascript" src="js/properties.js"></script>
+	    <script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>CSS Chopping Block</h1>
+			</div>
+			<div class="alert alert-info">
+				Saving the world from run-away CSS inherited properties! This test will run your code
+				against all inherited CSS properties so you can see how it affects your HTML.
+			</div>
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#input-html" data-toggle="tab">Input HTML</a></li>
+				<li><a href="#chopping-block" data-toggle="tab">Chopping Block</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="input-html">
+					<div class="alert alert-info">
+						Enter your HTML/CSS below. When ready, hit the test button to 
+						put your code on the chopping block.
+					</div>
+					<textarea id="code">
+<style>
+
+</style>
+<h1>Your HTML here</h1>
+					</textarea>
+				</div>
+				<div class="tab-pane" id="chopping-block">
+					<iframe></iframe>
+					<button id="clear-styles" class="btn btn-primary">Reset</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
